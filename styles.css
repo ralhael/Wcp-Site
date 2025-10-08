@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+strong{
+    color:rgb(240, 165, 5)
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+  width: 100%;
+
+    
+}
+
+.topo{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    
+}
+
+.div_imagemEscrevendo{
+    border-radius:10vh;
+    
+
+}
+
+#wcpsemfundo{
+
+    width: 18vh;
+    
+
+}
+
+.paginas{
+    display: flex;
+    gap: 4vh;
+    font-size: 1.5vh;
+    align-items: center;
+    margin-right: 2vh;
+   
+}
+
+#paginas_link{
+    text-decoration:none;
+    font-weight:550;
+    color: #1e40af;
+
+
+}
+
+.bloco_principal{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    background: linear-gradient(90deg,rgb(43, 43, 121) 0%, rgb(23, 51, 143) 35%, rgb(25, 54, 146) 100%);
+    
+   
+
+}
+
+.bloco_esquerdaPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+    color: white;
+}
+
+#titulo{
+
+    font-size: 5vh;
+
+}
+
+#imagemEscrevendo{
+
+    border-radius:5vh;
+    width: 64vh;
+    margin: 10vh;  
+
+}
+
+.bloco_servicos{
+    margin-top:5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+
+}
+
+.blocos_servicos{
+    display: flex;
+    flex-direction: row;
+    gap :2vh;
+
+
+}
