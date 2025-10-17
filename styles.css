@@ -22,7 +22,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background: radial-gradient(circle, rgba(242, 251, 255, 1) 0%, rgba(242, 242, 242, 1) 52%, rgba(237, 247, 255, 1) 100%);
+    background: radial-gradient(circle, rgb(226, 233, 235) 0%, rgb(238, 237, 237) 52%, rgba(237, 247, 255, 1) 100%);
 
 
 
@@ -156,7 +156,7 @@ main {
 
 #botaoServico {
     background-color: rgb(240, 165, 5);
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     color: #0404a5;
     font-weight: 480;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 0px 8px 0px rgba(0, 0, 0, 0);
@@ -165,7 +165,8 @@ main {
 
 #botaoServico:hover {
     transform: scale(1.05);
-
+    box-shadow: rgba(172, 169, 169, 0.4) 0px 5px, rgba(148, 148, 148, 0.3) 0px 10px, rgba(107, 106, 106, 0.2) 0px 15px, rgba(128, 127, 127, 0.1) 0px 20px, rgba(146, 146, 146, 0.05) 0px 25px;
+    
 }
 
 
@@ -250,16 +251,14 @@ main {
     max-width: 20vh;
     border: none;
     border-radius: 1vh;
-    box-shadow: -1px 0px 6px -2px rgba(0, 0, 0, 0.29);
-    -webkit-box-shadow: -1px 0px 6px -2px rgba(0, 0, 0, 0.29);
-    -moz-box-shadow: -1px 0px 6px -2px rgba(0, 0, 0, 0.29);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     padding: 5vh;
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
 
 }
 
 .quadrados_servicos:hover{
-    background-color: rgba(139, 139, 202, 0.041) ;
+    background-color: rgba(168, 205, 255, 0.13) ;
     transform: scale(1.03);
 }
 
@@ -361,6 +360,18 @@ main {
     flex-direction: column;
     justify-content: center;
     gap: 2vh;
+    
+}
+
+.bloco_escolher_esquerda h1{
+    color: #050574;
+    font-size: 5vh;
+}
+
+.bloco_escolher_esquerda p{
+    color: rgb(82, 82, 82); 
+    font-weight: 500;
+    font-size: 2vh;
 }
 
 .bloco_esquerda_debaixo {
@@ -381,14 +392,14 @@ main {
     gap: 2vh;
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
     padding: 1vh 2vh;
-    background: radial-gradient(circle, rgba(242, 251, 255, 1) 0%, rgba(242, 242, 255, 1) 52%, rgba(237, 247, 255, 1) 100%);
-    border-radius: 1vh
+    background: radial-gradient(circle, rgba(222, 244, 253, 0.685) 0%, rgba(231, 242, 255, 0.651) 52%, rgba(214, 237, 255, 0.692) 100%);
+    border-radius: 1vh;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .bloquinhos_esquerda:hover {
     transform: scale(1.02);
-    background: radial-gradient(circle, rgba(220, 226, 245, 1) 0%, rgba(199, 221, 242, 1) 100%);
-
+    background: radial-gradient(circle, rgba(207, 241, 255, 0.685) 0%, rgba(202, 227, 255, 0.651) 52%, rgba(175, 219, 255, 0.281) 100%);
 
 
 }
@@ -493,14 +504,14 @@ footer p {
     margin: auto 0;
     gap: 10vh;
     margin-top: 5vh;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
     border-bottom: 2px solid gray;
 }
 
 .blocoUm {
     display: flex;
     flex-direction: column;
-    gap: 1vh;
+   
 }
 
 #blocoUmWcp {
@@ -524,9 +535,16 @@ footer p {
 .blocoDois {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 2vh;
+    
+   
     align-items: start;
+}
+
+.div_org_encontrar{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin-top: 1.5rem;
 }
 
 .blocoTelefone {
@@ -559,12 +577,23 @@ footer p {
     flex-direction: row;
     align-items: self-start;
     gap: 8px;
+    transition: transform 0.3s ease-in-out;
 
 }
 
-#noni {
-    display: none;
+.blocoLocalizacao:hover{
+    transform:scale(1.08)
+
 }
+
+
+
+#endereco{
+    color: #797575;;
+
+}
+
+
 
 .div_relogio_horario{
     display: flex;
@@ -596,4 +625,11 @@ footer p {
     gap: 1vh;
     text-align: center;
     
+}
+
+#direitosWCP{
+    margin-top:2vh;
+    font-size: 0.8rem;
+    margin-bottom: 1vh;
+
 }

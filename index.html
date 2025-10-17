@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Wcp</title>
+    <title>WCP Despachantes</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -16,8 +16,8 @@
             <div><img src="./assets/wcpLinear.png" id="wcpsemfundo"></div>
 
             <div class="paginas">
-                <a href="#" id="paginas_link"> Início </a>
-                <a href="#" id="paginas_link"> Serviços </a>
+                <a href="index.html" id="paginas_link"> Início </a>
+                <a href="service.html" id="paginas_link"> Serviços </a>
                 <a href="#" id="paginas_link"> Sobre Nós </a>
                 <a href="#" id="paginas_link"> Contato </a>
             </div>
@@ -44,7 +44,7 @@
                 </div>
 
                 <div class="div_botaos_principal">
-                    <a href="#" class="botaoBlocoPrincipal" id="botaoServico"> Nossos Serviços <i
+                    <a href="service.html" class="botaoBlocoPrincipal" id="botaoServico"> Nossos Serviços <i
                             data-lucide="wrench"></i> </a>
                     <a href="#" class="botaoBlocoPrincipal" id="botaoContato"> Entre em Contato <i
                             data-lucide="message-circle"></i></a>
@@ -93,7 +93,7 @@
             </div>
 
             <div class="botao_servicos_div">
-                <a id="link_botao_servicos" href="#">Ver todos os Serviços </a>
+                <a id="link_botao_servicos" href="service.html">Ver todos os Serviços </a>
                 <i class="setadireitaservico" data-lucide="arrow-right"></i>
             </div>
 
@@ -187,26 +187,30 @@
                     <div class="div_icons"><i class="icone" data-lucide="phone-call"></i></div>
                     <p>Contato</p>
                 </div>
-                <div class="blocoTelefone">
-                    <i class="icone" data-lucide="phone"></i>
-                    <a class="numeroLia"
-                        href="https://api.whatsapp.com/send?phone=558588970484&text=Ol%C3%A1%20Lia,%20gostaria%20de%20saber%20mais%20sobre%20a%20WCP%20Despachantes">+558588970484</a>
-                </div>
-                <div class="blocoMail">
-                    <i class="icone" data-lucide="mail"></i>
-                    <p>wcp.despachantes@gmail.com</p>
-                </div>
-                <div class="blocoLocalizacao">
-                    <i class="icone" data-lucide="map-pin"></i>
-                    <a
-                        href="https://www.google.com/maps/place/WCP+Despachantes/@-3.7593238,-38.4874655,17z/data=!3m1!4b1!4m6!3m5!1s0x7c749f08d27c359:0xb75f98a293722296!8m2!3d-3.7593238!4d-38.4874655!16s%2Fg%2F11f611sftk?entry=ttu&g_ep=EgoyMDI1MTAwOC4wIKXMDSoASAFQAw%3D%3D">Rua
-                        Coronel - R. Hélder Benevides, 84 <br>sala 48 - Guararapes, Fortaleza - CE, 60810-160</a>
+                <div class="div_org_encontrar">
+                    <div class="blocoTelefone">
+                        <i class="icone" data-lucide="phone"></i>
+                        <a class="numeroLia"
+                            href="https://api.whatsapp.com/send?phone=558588970484&text=Ol%C3%A1%20Lia,%20gostaria%20de%20saber%20mais%20sobre%20a%20WCP%20Despachantes">+558588970484</a>
+                    </div>
+                    <div class="blocoMail">
+                        <i class="icone" data-lucide="mail"></i>
+                        <p>wcp.despachantes@gmail.com</p>
+                    </div>
+                    <div class="blocoLocalizacao">
+                        <i class="icone" data-lucide="map-pin"></i>
+                        <div  >
+                            <a id="endereco"
+                                href="https://www.google.com/maps/place/WCP+Despachantes/@-3.7593238,-38.4874655,17z/data=!3m1!4b1!4m6!3m5!1s0x7c749f08d27c359:0xb75f98a293722296!8m2!3d-3.7593238!4d-38.4874655!16s%2Fg%2F11f611sftk?entry=ttu&g_ep=EgoyMDI1MTAwOC4wIKXMDSoASAFQAw%3D%3D">Rua
+                                Coronel - R. Hélder Benevides, 84 <br>sala 48 - Guararapes, Fortaleza - CE, 60810-160</a>
+                        </div>
+                    </div>
                 </div>
             </section>
             
         </section>
 
-        <p>© 2025 WCP Despachantes. Todos os direitos reservados.</p>
+        <p id="direitosWCP" >© 2025 WCP Despachantes. Todos os direitos reservados.</p>
 
 
 
