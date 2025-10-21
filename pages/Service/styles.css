@@ -71,71 +71,212 @@ main {
     border-bottom-color: rgb(255, 174, 0);
 }
 
-main{
+main {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
 }
 
-.bloco_hero{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-gap: 3vh;
-padding: 5vh;
-background-color: #1e40af;
-text-align: center;
-margin-bottom: 8vh;
+.bloco_hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+    padding: 5vh;
+    background-color: #1e40af;
+    text-align: center;
+    margin-bottom: 8vh;
 }
 
-.bloco_tipos_servicos{
+.bloco_tipos_servicos {
 
-display: flex;
-flex-direction: column;
-align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30vh;
 }
 
 
 
-.conjunto_bloco_sup{
+.conjunto_bloco_sup {
     display: flex;
     flex-direction: row;
     gap: 40vh;
 }
 
-.bloco_um_esquerda{
+.bloco_um_esquerda {
     display: flex;
     flex-direction: column;
-    align-items: start;
+
     max-width: max-content;
 }
 
-.topo_quadrados{
+.topo_quadrados {
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
     padding: 2vh 8vh 2vh 0vh;
     align-items: center;
-    
+
+
 }
 
-.icon_topo_quadrados{
-background-color: #1e40af;
-padding: 1.5vh;
-border-radius: 1vh;
-color: rgb(214, 214, 214);
+.fundo_topo_esquerda {
+    background-image: linear-gradient(to right top, #215aaf, #2b66bf, #3572cf, #3e7edf, #478bf0);
+
 }
 
-.div_conjunto_itens{
+
+.icon_topo_quadrados {
+    padding: 1.5vh;
+    border-radius: 1vh;
+    color: rgb(214, 214, 214);
+}
+
+.fundo_icon_esquerda {
+    background-color: #1e40af;
+}
+
+
+
+.div_conjunto_itens {
     display: flex;
     flex-direction: column;
     gap: 1rem
-
-
 }
 
-.div_itens_lista{
+.div_itens_lista {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.bloco_um_direita {
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
+
+}
+
+.fundo_topo_direita {
+    background: linear-gradient(90deg, rgba(87, 41, 12, 1) 0%, rgba(107, 64, 12, 1) 51%, rgba(105, 49, 17, 1) 100%);
+}
+
+.fundo_icon_direita {
+    background: linear-gradient(132deg, rgba(51, 32, 9, 1) 0%, rgba(59, 31, 10, 1) 17%, rgba(51, 32, 9, 1) 100%);
+}
+
+.bloco_como_funciona {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20vh;
+
+}
+
+.passoApasso {
+    display: flex;
+    flex-direction: row;
+    gap: 10vh;
+    margin-top: 4vh;
+    max-width: max-content;
+}
+
+.quadrado_primeiro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+}
+
+.numero1 {
+    padding: 1.3vh 1.5vh;
+    border-radius: 100%;
+    background: linear-gradient(90deg, rgba(227, 204, 57, 1) 10%, rgba(237, 194, 38, 1) 100%);
+    color: white;
+    font-size: 13px;
+
+}
+
+.numero1 h1 {
+    text-shadow: 3px 1px 2px rgb(202, 206, 205);
+}
+
+
+.bloco_escolha {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20vh;
+    background:
+        url("https://img.freepik.com/fotos-gratis/o-homem-idoso-esta-usando-o-computador-portatil_53876-167096.jpg?semt=ais_hybrid&w=740&q=80") center center / cover no-repeat;
+    overflow: hidden;
+    padding: 8vh 4vh;
+    
+}
+
+
+.bloco_escolha::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(7, 15, 37, 0.938);
+    /* camada escura */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: 0;
+}
+
+
+.bloco_escolha>* {
+    position: relative;
+    z-index: 1;
+}
+
+.div_escolha_esquerda {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+
+}
+
+.div_verificados {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.verificados {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: max-content;
+}
+
+.div_quadrados {
+
+    display: inline-grid;
+    grid-template-columns: 20vh 20vh;
+    gap: 5vh;
+    align-items: center;
+    text-align: center;
+}
+
+.quadradinhos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3032389f;
+    max-width: 20vh;
+    height: 20vh;
+    justify-content: center;
+    border-radius: 2vh;
+    border: 1px solid rgb(87, 87, 87);
+    color: rgb(211, 209, 77)
+
 }
