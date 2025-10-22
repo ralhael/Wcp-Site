@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
@@ -7,8 +8,14 @@
     scroll-behavior: smooth;
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
+
 }
 
+
+
+h1 {
+    color: #0B2233;
+}
 
 :root {
 
@@ -20,7 +27,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background: radial-gradient(circle, rgb(226, 233, 235) 0%, rgb(238, 237, 237) 52%, rgba(237, 247, 255, 1) 100%);
+     background: radial-gradient(circle, rgb(226, 233, 235) 0%, rgb(238, 237, 237) 52%, rgba(237, 247, 255, 1) 100%);
 }
 
 strong {
@@ -39,6 +46,7 @@ main {
     justify-content: space-around;
     margin-bottom: 7vh;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
 }
 
 
@@ -82,10 +90,48 @@ main {
     align-items: center;
     justify-content: center;
     gap: 3vh;
-    padding: 5vh;
+    padding: 7vh;
     background-color: #1e40af;
     text-align: center;
     margin-bottom: 8vh;
+    background:
+        url("https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop") center center / cover no-repeat;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.bloco_hero::after {
+
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(11, 26, 61, 0.65);
+    /* azul escuro translúcido */
+    background: rgba(11, 26, 61, 0.65);
+    /* azul escuro translúcido */
+    backdrop-filter: blur(1.2px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: 0;
+}
+
+.bloco_hero * {
+    position: relative;
+    z-index: 1;
+}
+
+.bloco_hero h1 {
+    font-size: 7vh;
+    color: rgba(240, 240, 240, 0.952);
+
+
+}
+
+.bloco_hero h4 {
+    font-size: 1.2rem;
+    color: rgba(240, 240, 240, 0.76);
+
+
 }
 
 .bloco_tipos_servicos {
@@ -107,8 +153,12 @@ main {
 .bloco_um_esquerda {
     display: flex;
     flex-direction: column;
-
+    border-radius: 2vh;
     max-width: max-content;
+    background-color: white;
+   
+    
+    
 }
 
 .topo_quadrados {
@@ -117,12 +167,22 @@ main {
     gap: 0.5rem;
     padding: 2vh 8vh 2vh 0vh;
     align-items: center;
-
+    
 
 }
 
+.topo_quadrados h1{
+
+color: rgba(240, 240, 240, 0.952);
+}
+
 .fundo_topo_esquerda {
-    background-image: linear-gradient(to right top, #215aaf, #2b66bf, #3572cf, #3e7edf, #478bf0);
+    background: linear-gradient(135deg, #4C8EF7 0%, #1E63D6 100%);
+
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+    
+    
 
 }
 
@@ -131,10 +191,11 @@ main {
     padding: 1.5vh;
     border-radius: 1vh;
     color: rgb(214, 214, 214);
+    margin-left: 1vh;
 }
 
 .fundo_icon_esquerda {
-    background-color: #1e40af;
+    background-color: #1E63D6;
 }
 
 
@@ -142,28 +203,42 @@ main {
 .div_conjunto_itens {
     display: flex;
     flex-direction: column;
-    gap: 1rem
+    gap: 1rem;
+    margin-left:1vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.div_itens_lista i{
+    color: green;
 }
 
 .div_itens_lista {
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 2vh;
 }
 
 .bloco_um_direita {
     display: flex;
     flex-direction: column;
     max-width: max-content;
+     background-color: white;
+     border-radius: 2vh;
+     
 
 }
 
 .fundo_topo_direita {
-    background: linear-gradient(90deg, rgba(87, 41, 12, 1) 0%, rgba(107, 64, 12, 1) 51%, rgba(105, 49, 17, 1) 100%);
+    background: linear-gradient(135deg, #8C5321 0%, #5A2E0A 100%);
+
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
 }
 
 .fundo_icon_direita {
-    background: linear-gradient(132deg, rgba(51, 32, 9, 1) 0%, rgba(59, 31, 10, 1) 17%, rgba(51, 32, 9, 1) 100%);
+    background-color: #6B3A0F;
 }
 
 .bloco_como_funciona {
@@ -194,7 +269,7 @@ main {
 .numero1 {
     padding: 1.3vh 1.5vh;
     border-radius: 100%;
-    background: linear-gradient(90deg, rgba(227, 204, 57, 1) 10%, rgba(237, 194, 38, 1) 100%);
+    background: linear-gradient(135deg, #F6CF5A 0%, #E9B224 40%, #C68910 100%);
     color: white;
     font-size: 13px;
 
@@ -216,7 +291,7 @@ main {
         url("https://img.freepik.com/fotos-gratis/o-homem-idoso-esta-usando-o-computador-portatil_53876-167096.jpg?semt=ais_hybrid&w=740&q=80") center center / cover no-repeat;
     overflow: hidden;
     padding: 8vh 4vh;
-    
+
 }
 
 
@@ -224,7 +299,7 @@ main {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(7, 15, 37, 0.938);
+    background: rgba(7, 17, 39, 0.815);
     /* camada escura */
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -277,6 +352,207 @@ main {
     justify-content: center;
     border-radius: 2vh;
     border: 1px solid rgb(87, 87, 87);
-    color: rgb(211, 209, 77)
+    color: #E9B224;
+
+}
+
+.bloco_solicita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 9vh 0vh 9vh 0vh;
+    max-width: 100%;
+    background: linear-gradient(135deg, #F6CF5A 0%, #E9B224 40%, #C68910 100%);
+
+}
+
+.link_solicitar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.link_solicitar:hover {
+    transform: scale(1.01);
+}
+
+#setaDireitaSolicita {
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.link_solicitar:hover #setaDireitaSolicita {
+
+    transform: translateX(2vh);
+}
+
+
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(10, 4, 74, 1) 0%, rgba(12, 24, 112, 1) 54%, rgba(4, 13, 135, 1) 82%, rgba(23, 7, 115, 1) 100%);
+    border-top: 2px solid rgba(255, 255, 255, 0.15);
+    margin-top: 0;
+
+}
+
+
+footer p {
+    color: #797575;
+    font-weight: 480;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto 0;
+    gap: 10vh;
+    margin-top: 5vh;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid gray;
+}
+
+.blocoUm {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#blocoUmWcp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vh;
+
+}
+
+.textosBlocoUm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    align-items: start;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.blocoDois {
+    display: flex;
+    flex-direction: column;
+
+
+    align-items: start;
+}
+
+.div_org_encontrar {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin-top: 1.5rem;
+    color: #E9B224;
+}
+
+.blocoTelefone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vh;
+    transition: transform 0.3s ease-in-out;
+}
+
+.blocoTelefone:hover {
+    transform: scale(1.08);
+
+}
+
+
+.numeroLia {
+    color: #797575;
+
+}
+
+.blocoMail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vh;
+}
+
+.blocoLocalizacao {
+    display: flex;
+    flex-direction: row;
+    align-items: self-start;
+    gap: 8px;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.blocoLocalizacao:hover {
+    transform: scale(1.08)
+}
+
+
+
+#endereco {
+    color: #797575;
+    ;
+
+}
+
+
+
+.div_relogio_horario {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    color: #E9B224;
+}
+
+.blocoRelogio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+#horario {
+    color: rgb(230, 227, 227);
+
+}
+
+
+.blocoTres {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vh;
+    text-align: center;
+
+}
+
+#direitosWCP {
+    margin-top: 2vh;
+    font-size: 0.8rem;
+    margin-bottom: 1vh;
+
+}
+
+.div_icons {
+
+    padding: 1.3vh;
+    background: linear-gradient(to bottom, rgba(34, 34, 171, 1) 0%, rgba(30, 64, 175, 1) 34%, rgba(30, 64, 175, 1) 100%);
+    border-radius: 1vh;
+    color: #E9B224;
 
 }
