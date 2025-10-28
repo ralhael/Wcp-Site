@@ -25,9 +25,7 @@ main {
   width: 100%;
 }
 
-strong {
-  color: rgb(240, 165, 5);
-}
+
 
 /* cabecalho*/
 .topo {
@@ -37,7 +35,7 @@ strong {
   align-items: center;
   padding: 2vh 0;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
-              rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   background-color: #ffffffc5;
 }
 
@@ -69,14 +67,14 @@ strong {
 
 /* mainn */
 
-.bloco_hero{
+.bloco_hero {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 8vh;
   text-align: center;
-   background: linear-gradient(135deg, #2e1065 0%, #4338ca 40%, #312e81 100%);
+  background: linear-gradient(135deg, #2e1065 0%, #4338ca 40%, #312e81 100%);
   background-size: 400% 400%;
   animation: pulse-gradient 15s ease infinite;
   gap: 3vh;
@@ -86,74 +84,73 @@ strong {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
- 
+
   }
 
 }
 
-.blocoCoroa{
+.blocoCoroa {
   display: flex;
   align-items: center;
   padding: 2vh;
-  background-image: linear-gradient( 90deg, #05071138 10%, #345ed1 100%);
+  background-image: linear-gradient(90deg, #05071138 10%, #345ed1 100%);
   border-radius: 1vh;
-  background-size: 400% 400% ;
+  background-size: 400% 400%;
   animation: pulse-gradient 15s ease infinite;
-  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.14) , 0px 3px 1px -2px rgba(0,0,0,0.12) , 0px 1px 5px 0px rgba(0,0,0,0.2);
-  
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12), 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+
 }
 
-@keyframes pulse-gradient{
-  0%{
+@keyframes pulse-gradient {
+  0% {
     background-position: 0% 50%;
   }
-  50%{
+
+  50% {
     background-position: 100% 50%;
   }
-  100%{
+
+  100% {
     background-position: 0% 50%;
   }
 
 }
 
-.iconcoroa{
-  width: 50px;
-  height: 50px;
-  color: white;
-}
 
-#tituloHero{
+#tituloHero {
   font-size: 9vh;
 
 }
 
 
 
-#textoHero{
+#textoHero {
   font-weight: 500;
 }
 
 
 
 
-.bloquinhos{
+.bloquinhos {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 4vh;
-  
+
 
 }
 
 
 
-.configBloco{
+.configBloco {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -162,32 +159,187 @@ strong {
   border-radius: 1vh;
   padding: 2vh;
   color: white;
-  transition:  background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
   width: 20vh;
   height: 15vh;
-  
-  
+
+
 }
 
-.configBloco:hover{
-  
+.configBloco:hover {
+
   background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.bloquinho_icon{
+.configBloco:hover .bloquinho_icon {
+  background-color: #05050750;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12), 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.bloquinho_icon {
   display: flex;
-  padding: 1vh;
+  padding: 2vh;
+  border-radius: 1vh;
+  background-color: #0507111a;
+  transition: background-color 0.3s ease-in-out;
+
+}
+
+.bloco_timeline{
+display: flex;
+flex-direction: row; 
+margin-left:20vh ;
+margin-right: 20vh;
+padding-top: 10vh;
+padding-bottom: 10vh;
+gap: 20vh;
+
+}
+
+.timelineEsquerda{
+  display:flex;
+  flex-direction: column;
+  max-width: 50vh;
+  gap: 2vh;
+  align-items: start;
   
 }
 
+.armazenaTitulo{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  width: 100%;
 
+}
+#tituloNossa{
+  font-size: 6vh;
+  font-weight: 300;
+}
 
+#tituloNossa strong{
+  font-weight: 550;
+  color: #0d1d52;
+}
 
+.subtituloTimeline{
+  font-size: 2vh;
+  font-weight: 500;
+}
 
+.paragrafoTimeline{
+  font-weight: 400;
+}
 
+.bloco_mensagem {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  gap: 2vh;
+  border-radius: 1vh;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 3vh;
+  width: 80%;
+  background-color: #a09c9c13;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
 
+.esquerdaMensagem{
+  display: flex;
+  align-items: start;
+}
 
+.blocoIconluz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  background-color: #0f172a; /* azul escuro */
+}
 
+.iconLuz {
+  color: white;
+  width: 2.2vh;
+  height: 2.2vh;
+}
+
+.direitaMensagem {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  justify-content: start;
+}
+.textoMensagem {
+  font-style: italic;
+  font-size: 2vh;
+  color: #1e293b; /* azul acinzentado */
+  font-weight: 500;
+}
+
+.assinatura {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2vh;
+}
+
+.bolaWP {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  background-color: #0f172a;
+  color: white;
+  font-weight: 600;
+}
+
+.nomeCargo {
+  display: flex;
+  flex-direction: column;
+  color: #334155;
+  font-size: 1.6vh;
+}
+
+.nomeCargo p:first-child {
+  font-weight: 600;
+}
+
+.nomeCargo p:last-child {
+  font-size: 1.4vh;
+  color: #64748b;
+}
+
+.bloco_timelineDireita{
+  display: flex;
+  flex-direction: column;
+}
+
+.bloco_invisivel{
+  display: flex;
+  flex-direction: row;
+  gap: 2vh;
+}
+
+.esquerdaInvisivel{
+  display: flex;
+  align-items: start;
+}
+
+.blocoIconFoguete{
+  display: flex;
+  align-items: center;
+  padding: 1vh;
+  border-radius :1vh;
+  border: 1.5px solid rgba(0, 0, 0, 0.315);
+
+}
 
 
 
@@ -201,10 +353,10 @@ footer {
   flex-direction: column;
   align-items: center;
   background: linear-gradient(90deg,
-    rgba(10, 4, 74, 1) 0%,
-    rgba(12, 24, 112, 1) 54%,
-    rgba(4, 13, 135, 1) 82%,
-    rgba(23, 7, 115, 1) 100%);
+      rgba(10, 4, 74, 1) 0%,
+      rgba(12, 24, 112, 1) 54%,
+      rgba(4, 13, 135, 1) 82%,
+      rgba(23, 7, 115, 1) 100%);
   border-top: 2px solid rgba(255, 255, 255, 0.15);
   margin-top: 0;
 }
@@ -224,7 +376,8 @@ footer p {
   border-bottom: 2px solid gray;
 }
 
-.blocoUm, .blocoDois {
+.blocoUm,
+.blocoDois {
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -264,7 +417,8 @@ footer p {
   color: #E9B224;
 }
 
-.numeroLia, #endereco {
+.numeroLia,
+#endereco {
   color: #797575;
 }
 
