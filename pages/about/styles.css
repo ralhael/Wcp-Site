@@ -147,16 +147,39 @@ strong {
   align-items: center;
   justify-content: center;
   gap: 4vh;
+  
 
 }
+
+
 
 .configBloco{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 1vh;
-  padding: 1vh;
+  padding: 2vh;
   color: white;
-
+  transition:  background-color 0.3s ease-in-out;
+  width: 20vh;
+  height: 15vh;
+  
+  
 }
+
+.configBloco:hover{
+  
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.bloquinho_icon{
+  display: flex;
+  padding: 1vh;
+  
+}
+
 
 
 
