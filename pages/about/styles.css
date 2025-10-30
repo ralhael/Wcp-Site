@@ -9,11 +9,11 @@
 }
 
 hr {
-      color: rgb(0, 0, 0);
-      background-color: rgb(0, 0, 0);
-      height: 2px;
-      border: none;
-    }
+  color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  height: 2px;
+  border: none;
+}
 
 :root {
   --cor-principal: black;
@@ -32,7 +32,7 @@ main {
   width: 100%;
 }
 
-strong{
+strong {
   color: #141f38;
 }
 
@@ -142,7 +142,7 @@ strong{
 
 }
 
-#subtituloHero{
+#subtituloHero {
   font-size: 2.5vh;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.842);
@@ -208,9 +208,9 @@ strong{
 
 }
 
-.bloco_timeline{
+.bloco_timeline {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   padding-top: 10vh;
@@ -219,18 +219,18 @@ strong{
 
 
 
-.timelineEsquerda{
-  display:flex;
+.timelineEsquerda {
+  display: flex;
   flex-direction: column;
   gap: 2vh;
   align-items: start;
-  flex: 0 0 auto;      
-  max-width: 45%;     
-  
-  
+  flex: 0 0 auto;
+  max-width: 45%;
+
+
 }
 
-.armazenaTitulo{
+.armazenaTitulo {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -240,45 +240,45 @@ strong{
 
 }
 
-.mudaLinha{
+.mudaLinha {
   display: flex;
   flex-direction: column;
-  
+
 }
 
 
 
-#tituloNossa{
+#tituloNossa {
   font-size: 9vh;
   font-weight: 300;
 }
 
-.linhaNossa{
+.linhaNossa {
   width: 100%;
-  
+
 }
 
-#tituloNossa strong{
+#tituloNossa strong {
   font-weight: 550;
   color: #0d1d52;
 }
 
-.subtituloTimeline{
+.subtituloTimeline {
   font-size: 2.5vh;
   font-weight: 500;
 }
 
-.paragrafoTimeline{
+.paragrafoTimeline {
   font-weight: 400;
   font-size: 1.8vh;
 }
 
-.bloco_textos{
+.bloco_textos {
   display: flex;
   flex-direction: column;
-  width: 60%; 
+  width: 60%;
   gap: 2vh;
-  
+
 }
 
 .bloco_mensagem {
@@ -295,7 +295,7 @@ strong{
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-.esquerdaMensagem{
+.esquerdaMensagem {
   display: flex;
   align-items: start;
 }
@@ -307,7 +307,7 @@ strong{
   width: 5vh;
   height: 5vh;
   border-radius: 50%;
-  background-color: #0f172a; 
+  background-color: #232f42;
 }
 
 .iconLuz {
@@ -322,10 +322,11 @@ strong{
   gap: 2vh;
   justify-content: start;
 }
+
 .textoMensagem {
   font-style: italic;
   font-size: 2vh;
-  color: #1e293b; 
+  color: #1e293b;
   font-weight: 500;
 }
 
@@ -344,7 +345,7 @@ strong{
   width: 5vh;
   height: 5vh;
   border-radius: 50%;
-  background-color: #0f172a;
+  background-color: #232f42;
   color: white;
   font-weight: 600;
 }
@@ -365,57 +366,57 @@ strong{
   color: #64748b;
 }
 
-.bloco_timelineDireita{
+.bloco_timelineDireita {
   display: flex;
   flex-direction: column;
   gap: 6vh;
-  align-items: center; 
+  align-items: center;
   max-width: 45%;
 }
 
-.bloco_invisivel{
+.bloco_invisivel {
   display: flex;
   flex-direction: row;
   gap: 2vh;
   width: max-content;
 }
 
-.esquerdaInvisivel{
+.esquerdaInvisivel {
   display: flex;
   align-items: start;
-  
+
 }
 
-.blocoIconFoguete{
+.blocoIconFoguete {
   display: flex;
   align-items: center;
   padding: 1.5vh;
-  border-radius :1vh;
+  border-radius: 1vh;
   border: 1px solid rgba(0, 0, 0, 0.315);
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-  transition:  box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
 
 }
 
-.blocoIconFoguete:hover{
+.blocoIconFoguete:hover {
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(13, 15, 17, 0.582) 0px 0px 0px 1px;
 }
 
 
 .blocoIconFoguete i {
-  width: 8vh;  
-  height: 8vh; 
-  font-size: 3vh; 
-  
+  width: 8vh;
+  height: 8vh;
+  font-size: 3vh;
+
 }
 
-.iconFoguete{
+.iconFoguete {
   width: 3.5vh;
   height: 3.5vh;
 
 }
 
-.direitaInvisivel{
+.direitaInvisivel {
   display: flex;
   flex-direction: column;
   border: 1px solid rgba(0, 0, 0, 0.096);
@@ -424,11 +425,11 @@ strong{
   max-width: 40vh;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 0px;
   gap: 1vh;
-  transition: box-shadow 0.3s ease-in-out; 
-  align-items: start  
+  transition: box-shadow 0.3s ease-in-out;
+  align-items: start
 }
 
-.direitaInvisivel:hover{
+.direitaInvisivel:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -445,6 +446,7 @@ strong{
 .direitaInvisivel p {
   font-weight: 300;
 }
+
 .direitaInvisivel h4 {
   width: 30%;
   font-weight: 600;
@@ -452,45 +454,45 @@ strong{
 
 
 
-.bloco_missaovalores{
+.bloco_missaovalores {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #c8c8ca15;
   gap: 5vh;
- 
+
   padding: 8vh 0vh;
 }
 
-.armazenaMissaoValores{
+.armazenaMissaoValores {
   display: flex;
   flex-direction: row;
   gap: 16px;
 
 }
 
-.armazenaMissaoValores h1{
+.armazenaMissaoValores h1 {
   font-size: 6vh;
   font-weight: 400;
 
 }
 
-#visao{
+#visao {
   color: #141f38;
   font-weight: 550;
 }
 
-.juncaoMissaoVisao{
+.juncaoMissaoVisao {
   display: flex;
   flex-direction: row;
   gap: 5vh;
   margin: 0 auto;
-  
+
 }
 
 
-.blocoMissao{
+.blocoMissao {
   display: flex;
   flex-direction: column;
   gap: 3vh;
@@ -501,12 +503,13 @@ strong{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
-.blocoMissao:hover{
+
+.blocoMissao:hover {
   transform: scale(1.01);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
-.SupBloco{
+.SupBloco {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -514,39 +517,39 @@ strong{
   gap: 2vh;
 }
 
-.SupBloco h2{
+.SupBloco h2 {
   font-size: 2.5vh;
   font-weight: 300;
 }
 
-.blocoIconLampada{
+.blocoIconLampada {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 2vh;
   border-radius: 1vh;
-  background-color: #0f172a;
+  background-color: #232f42;
 
 }
 
-.iconLampada{
+.iconLampada {
   width: 3vh;
   height: 3vh;
   color: white;
 }
 
-.textoMissao{
+.textoMissao {
   font-weight: 420;
   font-size: 1.8vh;
   color: #050507b9;
   width: 55vh;
 }
 
-.textoMissao strong{
-  color: #0f172a;
+.textoMissao strong {
+  color: #232f42;
 }
 
-.blocoValores{
+.blocoValores {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -555,21 +558,22 @@ strong{
   padding: 10vh 0vh;
 }
 
-.blocoValores h1{
+.blocoValores h1 {
   font-size: 6vh;
   font-weight: 400;
 }
 
-.bloco_quadradosValores{
+
+.bloco_quadradosValores {
   display: grid;
-  grid-template-columns: auto auto ;
+  grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   grid-column-gap: 20vh;
   grid-row-gap: 5vh;
   margin: 0 auto;
 }
 
-.configQuadrados{
+.configQuadrados {
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -583,12 +587,12 @@ strong{
 
 }
 
-.configQuadrados h1{
+.configQuadrados h1 {
   color: #141f38;
   font-size: 4vh;
   font-weight: 400;
   margin-bottom: 1vh;
-  
+
 }
 
 .configQuadrados:hover {
@@ -596,38 +600,278 @@ strong{
 }
 
 
-.configQuadrados p{
+.configQuadrados p {
   max-width: 50vh;
   font-weight: 400;
   color: #334155d2;
 }
 
 
-.iconQuadrados{
+.iconQuadrados {
   display: flex;
   align-items: center;
-  background-color: #0f172a;
+  background-color: #232f42;
   padding: 2vh;
   border-radius: 1vh;
 }
 
-#iconQuadrado{
+#iconQuadrado {
   color: white;
   width: 3vh;
   height: 3vh;
-  
+
+}
+
+.blocoEquipe {
+  display: flex;
+  background-color: #c8c8ca15;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4vh;
+  padding: 7vh 0vh;
+}
+
+.supEquipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1vh;
+}
+
+.supEquipe h1 {
+  font-size: 6vh;
+  font-weight: 400;
 }
 
 
+.blocoOrganizaEquipe {
+  display: flex;
+  flex-direction: row;
+  gap: 2vh;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
 
 
+.blocoFunc {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  background: radial-gradient(circle, rgb(226, 233, 235) 0%, rgba(238, 243, 245, 0.747) 52%, rgba(237, 247, 255, 1) 100%);
+  gap: 2.5vh;
+  padding: 2vh;
+  border-radius: 1vh;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.blocoSupFunc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: max-content;
+}
+
+.blocoIconEquipe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5vh;
+  padding: 2vh;
+  background-color: #232f42;
+
+}
+
+#iconUsuario {
+  width: 3vh;
+  height: 3vh;
+  color: white;
+
+}
 
 
+.blocoTextoFun {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 80%;
+  text-align: center;
+}
 
 
+.BlocoQuadradosFunc {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  align-items: center;
+  justify-content: center;
+}
 
 
+.quadradosFunc {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-column-gap: 2vh;
+  grid-row-gap: 1vh;
+  width: max-content;
+}
 
+.blocoQualidades {
+  display: flex;
+  flex-direction: column;
+  padding: 1vh;
+  border-radius: 1vh;
+  background-color: #a09c9c13;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  transition: background-color 0.3s ease-in-out;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.blocoQualidades:hover {
+  background-color: #03030313;
+  cursor: default;
+
+}
+
+.blocoQualidades p {
+  font-size: 1.3vh;
+
+}
+
+
+#func1 {
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+#func2 {
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+#func3 {
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+#func1:hover {
+  transform: scale(1.05);
+  background-color: rgb(150, 150, 153);
+
+}
+
+#func2:hover {
+  transform: scale(1.05);
+  background-color: rgb(129, 156, 230);
+}
+
+#func3:hover {
+  transform: scale(1.05);
+  background-color: rgb(235, 179, 179);
+}
+
+
+.blocoContato {
+  display: flex;
+  flex-direction: column;
+  background-color: #232f42;
+  align-items: center;
+  justify-content: center;
+  padding: 7vh 0vh;
+  gap: 4vh;
+  margin-bottom: 5vh;
+
+}
+
+.supContato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+}
+
+.supContato h1 {
+  font-size: 6vh;
+  font-weight: 400;
+  color: white;
+}
+
+
+.supContato p {
+  width: 70%;
+  text-align: center;
+  color: rgb(194, 189, 189);
+}
+
+.blocoAlinhaBotaoContato {
+  display: flex;
+  flex-direction: row;
+  gap: 2vh;
+
+
+}
+
+.blocoFunc,
+.botaoContato .blocoMissao {
+  transform-origin: center center;
+  will-change: transform;
+}
+
+.botaoContato {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1vh;
+  gap: 1vh;
+  padding: 2vh;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.botaoContato:hover {
+  transform: scale(1.02);
+}
+
+#botao1 {
+  border: 1.2px solid white;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+#botao1:hover {
+  background-color: rgba(255, 255, 255, 0.699);
+  color: #141f38;
+
+}
+
+#botao1:hover~#botao2 {
+  background-color: transparent;
+  color: white;
+  border: 1.2px solid white;
+}
+
+#botao2 {
+  background-color: rgba(255, 255, 255, 0.699);
+  color: #141f38;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+#setaDireita {
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.botaoContato:hover #setaDireita {
+  transform: translateX(1vh);
+
+}
 
 
 
@@ -666,13 +910,12 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(90deg,
-      rgba(10, 4, 74, 1) 0%,
-      rgba(12, 24, 112, 1) 54%,
-      rgba(4, 13, 135, 1) 82%,
-      rgba(23, 7, 115, 1) 100%);
+  background: linear-gradient(135deg,
+      #070d1b 0%,
+      #0d1530 50%,
+      #111c3c 100%);
   border-top: 2px solid rgba(255, 255, 255, 0.15);
-  margin-top: 0;
+  margin-top: 4vh;
 }
 
 footer p {
@@ -721,6 +964,8 @@ footer p {
       rgba(30, 64, 175, 1) 100%);
   border-radius: 1vh;
   color: #E9B224;
+  align-items: center;
+  justify-content: center;
 }
 
 .div_org_encontrar {
