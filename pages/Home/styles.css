@@ -44,6 +44,8 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: #ffffff;
+
 
 
 
@@ -52,6 +54,7 @@ main {
 
 .div_imagemEscrevendo {
     border-radius: 10vh;
+
 
 
 }
@@ -408,7 +411,7 @@ main {
 
     padding: 1.3vh;
     background: linear-gradient(145deg, #162d63 0%, #102255 100%);
-    
+
     border-radius: 1vh;
 
 }
