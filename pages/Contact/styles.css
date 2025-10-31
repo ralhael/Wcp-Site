@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --cor-principal: black;
+  --cor-secundaria: #9ca3af;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(circle, rgb(226, 233, 235) 0%, rgb(238, 237, 237) 52%, rgba(237, 247, 255, 1) 100%);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+strong {
+  color: rgb(240, 165, 5);
+}
+
+/*CABEÇALHO*/
+.topo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2vh 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+              rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  background-color: #ffffffc5;
+}
+
+#wcpsemfundo {
+  width: 18vh;
+}
+
+.paginas {
+  display: flex;
+  gap: 4vh;
+  font-size: 1.5vh;
+  align-items: center;
+  margin-right: 2vh;
+}
+
+#paginas_link {
+  text-decoration: none;
+  font-weight: 550;
+  color: #1e40af;
+  padding-bottom: 0.5vh;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.3s ease-in-out;
+}
+
+#paginas_link:hover {
+  border-bottom-color: rgb(255, 174, 0);
+}
+
+/* ======== RODAPÉ ======== */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(90deg,
+    rgba(10, 4, 74, 1) 0%,
+    rgba(12, 24, 112, 1) 54%,
+    rgba(4, 13, 135, 1) 82%,
+    rgba(23, 7, 115, 1) 100%);
+  border-top: 2px solid rgba(255, 255, 255, 0.15);
+  margin-top: 0;
+}
+
+footer p {
+  color: #797575;
+  font-weight: 480;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10vh;
+  margin-top: 5vh;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid gray;
+}
+
+.blocoUm, .blocoDois {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+#blocoUmWcp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1vh;
+}
+
+.textosBlocoUm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  align-items: start;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.div_icons {
+  padding: 1.3vh;
+  background: linear-gradient(to bottom,
+      rgba(34, 34, 171, 1) 0%,
+      rgba(30, 64, 175, 1) 34%,
+      rgba(30, 64, 175, 1) 100%);
+  border-radius: 1vh;
+  color: #E9B224;
+}
+
+.div_org_encontrar {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  margin-top: 1.5rem;
+  color: #E9B224;
+}
+
+.numeroLia, #endereco {
+  color: #797575;
+}
+
+.blocoTelefone,
+.blocoMail,
+.blocoLocalizacao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1vh;
+  transition: transform 0.3s ease-in-out;
+}
+
+.blocoTelefone:hover,
+.blocoLocalizacao:hover {
+  transform: scale(1.08);
+}
+
+.div_relogio_horario {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  color: #E9B224;
+}
+
+.blocoRelogio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+#horario {
+  color: rgb(230, 227, 227);
+}
+
+#direitosWCP {
+  margin-top: 2vh;
+  font-size: 0.8rem;
+  margin-bottom: 1vh;
+}
