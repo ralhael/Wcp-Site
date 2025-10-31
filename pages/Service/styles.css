@@ -11,7 +11,7 @@
     font-family: "Montserrat", sans-serif;
 }
 
-a{
+a {
     cursor: pointer;
 }
 
@@ -169,83 +169,105 @@ main {
 
     transform: scale(1.12);
 }
+
 .bloco_um_direita:hover .fundo_icon_direita {
 
     transform: scale(1.12);
 }
 
-#um, #dois, #tres, #quatro, #cinco, #seis {
-  transform: translateX(0);
-  transition-delay: 0s;
+#um,
+#dois,
+#tres,
+#quatro,
+#cinco,
+#seis {
+    transform: translateX(0);
+    transition-delay: 0s;
 }
 
-.bloco_um_esquerda:hover #um{
+.bloco_um_esquerda:hover #um {
     transform: translateX(7px);
     transition-delay: 0s;
 }
-.bloco_um_esquerda:hover #dois{
+
+.bloco_um_esquerda:hover #dois {
     transform: translateX(7px);
     transition-delay: 0.1s;
 }
-.bloco_um_esquerda:hover #tres{
+
+.bloco_um_esquerda:hover #tres {
     transform: translateX(7px);
     transition-delay: 0.2s;
 }
-.bloco_um_esquerda:hover #quatro{
+
+.bloco_um_esquerda:hover #quatro {
     transform: translateX(7px);
     transition-delay: 0.3s;
 }
-.bloco_um_esquerda:hover #cinco{
+
+.bloco_um_esquerda:hover #cinco {
     transform: translateX(7px);
     transition-delay: 0.4s;
 }
-.bloco_um_esquerda:hover #seis{
-    transform: translateX(7px);
-    transition-delay: 0.5s;
-}
-.bloco_um_direita:hover #um{
-    transform: translateX(7px);
-    transition-delay: 0s;
-}
-.bloco_um_direita:hover #dois{
-    transform: translateX(7px);
-    transition-delay: 0.1s;
-}
-.bloco_um_direita:hover #tres{
-    transform: translateX(7px);
-    transition-delay: 0.2s;
-}
-.bloco_um_direita:hover #quatro{
-    transform: translateX(7px);
-    transition-delay: 0.3s;
-}
-.bloco_um_direita:hover #cinco{
-    transform: translateX(7px);
-    transition-delay: 0.4s;
-}
-.bloco_um_direita:hover #seis{
+
+.bloco_um_esquerda:hover #seis {
     transform: translateX(7px);
     transition-delay: 0.5s;
 }
 
+.bloco_um_direita:hover #um {
+    transform: translateX(7px);
+    transition-delay: 0s;
+}
+
+.bloco_um_direita:hover #dois {
+    transform: translateX(7px);
+    transition-delay: 0.1s;
+}
+
+.bloco_um_direita:hover #tres {
+    transform: translateX(7px);
+    transition-delay: 0.2s;
+}
+
+.bloco_um_direita:hover #quatro {
+    transform: translateX(7px);
+    transition-delay: 0.3s;
+}
+
+.bloco_um_direita:hover #cinco {
+    transform: translateX(7px);
+    transition-delay: 0.4s;
+}
+
+.bloco_um_direita:hover #seis {
+    transform: translateX(7px);
+    transition-delay: 0.5s;
+}
 
 
-#um{
+
+#um {
     transition: transform 0.3s ease-in-out;
 }
-#dois{
+
+#dois {
     transition: transform 0.3s ease-in-out;
 }
-#tres{
+
+#tres {
     transition: transform 0.3s ease-in-out;
 }
-#quatro{
+
+#quatro {
     transition: transform 0.3s ease-in-out;
 }
-#cinco{
+
+#cinco {
     transition: transform 0.3s ease-in-out;
 }
-#seis{
+
+#seis {
     transition: transform 0.3s ease-in-out;
 }
 
@@ -392,8 +414,8 @@ main {
     transition: transform 0.3s ease-in-out;
 }
 
-.numero1:hover{
-transform: scale(1.12);
+.numero1:hover {
+    transform: scale(1.12);
 
 
 }
@@ -539,9 +561,8 @@ transform: scale(1.12);
 .bloco_solicita p {
     font-weight: 600;
     color: rgba(27, 25, 25, 0.877);
-    margin-top:2vh;
-    margin-bottom:3vh
-
+    margin-top: 2vh;
+    margin-bottom: 3vh
 }
 
 .link_solicitar {
@@ -556,7 +577,7 @@ transform: scale(1.12);
     gap: 8px;
 }
 
-.link_orcamento{
+.link_orcamento {
     color: white;
 
 }
@@ -584,9 +605,9 @@ footer {
     flex-direction: column;
     align-items: center;
     background: linear-gradient(135deg,
-      #070d1b 0%,
-      #0d1530 50%,
-      #111c3c 100%);
+            #070d1b 0%,
+            #0d1530 50%,
+            #111c3c 100%);
     border-top: 2px solid rgba(255, 255, 255, 0.15);
     margin-top: 0;
 
@@ -681,7 +702,6 @@ footer p {
     align-items: self-start;
     gap: 8px;
     transition: transform 0.3s ease-in-out;
-
 }
 
 .blocoLocalizacao:hover {
@@ -692,8 +712,6 @@ footer p {
 
 #endereco {
     color: #797575;
-    ;
-
 }
 
 
@@ -717,7 +735,6 @@ footer p {
 
 #horario {
     color: rgb(230, 227, 227);
-
 }
 
 
@@ -727,21 +744,17 @@ footer p {
     align-items: center;
     gap: 1vh;
     text-align: center;
-
 }
 
 #direitosWCP {
     margin-top: 2vh;
     font-size: 0.8rem;
     margin-bottom: 1vh;
-
 }
 
 .div_icons {
-
     padding: 1.3vh;
-    background: linear-gradient(to bottom, rgba(34, 34, 171, 1) 0%, rgba(30, 64, 175, 1) 34%, rgba(30, 64, 175, 1) 100%);
+    background: linear-gradient(145deg, #162d63 0%, #102255 100%);
     border-radius: 1vh;
-    color: #E9B224;
-
+    color: #f0c93d;
 }
