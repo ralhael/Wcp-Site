@@ -114,24 +114,38 @@ strong {
 }
 
 
+.blocoVideo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+    background-color: #232f42;
+    width: 100%;
+    margin: 0 auto;
+}
 
+.armazenaTituloVideo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+}
 
+.blocoMaps{
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    width: 100%;
+    margin: 0 auto;
+    
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.maps{
+    display: flex;
+    width: 50%;
+}
 
 
 
