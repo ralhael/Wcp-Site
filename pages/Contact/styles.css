@@ -139,26 +139,36 @@ strong {
     width: max-content;
     width: 100%;
     margin: 0 auto;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 5vh;   
+    margin-bottom: 5vh;   
     
 }
 
-.maps{
+.blocoEsquerda{
     display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.blocoSupEsquerda{
+    display: flex;
+    flex-direction: column;
+}
+.englobaTextos{
+    display: flex;
+    flex-direction: column;
     width: 50%;
 }
 
 
+.maps iframe{
+   
+    
+    
 
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
