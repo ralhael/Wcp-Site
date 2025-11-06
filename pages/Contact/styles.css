@@ -26,6 +26,7 @@ main {
     width: 100%;
     align-items: center;
     justify-content: center;
+    gap: 3vh;
 
 }
 
@@ -45,6 +46,7 @@ strong {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
         rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     background-color: #ffffffc5;
+    ;
 }
 
 #wcpsemfundo {
@@ -76,6 +78,8 @@ strong {
 /*MAIN*/
 
 
+
+
 .bloco_hero {
     display: flex;
     flex-direction: column;
@@ -85,7 +89,7 @@ strong {
     margin-top: 5vh;
     background-color: #232f42;
     width: 100%;
-    padding: 15vh 0vh;
+    padding: 13vh 0vh;
 }
 
 .title_hero {
@@ -96,21 +100,45 @@ strong {
     gap: 2vh;
 }
 
+.title_hero h1{
+    font-size: 9vh;
+    color: rgba(223, 215, 215, 0.952);;
+
+}
+.title_hero p{
+    font-size: 2.5vh;
+    color: #fdfdff91;;
+
+}
+
 .blocoOrganizaQuadrados {
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
     align-items: center;
     justify-content: center;
-    column-gap: 10vh;
+    column-gap: 1vh;
+    width: 100%;
+    text-align: center;
 }
 
 
 .configQuadrados {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: max-content;
+    
+    
+}
+
+.blocoIconQuadrado{
+    padding: 1vh;
+    border-radius: 1vh;
+    background-color: #c7c5c583;
+    align-items: center;
+    justify-content: center;
+
 }
 
 
@@ -133,6 +161,15 @@ strong {
     gap: 1vh;
 }
 
+.armazenaTituloVideo h1{
+    font-size: 7vh;
+    color: rgba(223, 215, 215, 0.952);;
+}
+.armazenaTituloVideo p{
+    font-size: 2vh;
+    color: #fdfdff91;
+}
+
 .blocoMaps{
     display: flex;
     flex-direction: row;
@@ -149,25 +186,34 @@ strong {
 .blocoEsquerda{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width:max-content
 }
 
 .blocoSupEsquerda{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%
 }
+
 .englobaTextos{
-    display: flex;
-    flex-direction: column;
     width: 50%;
 }
 
+.englobaTextos p h1 {
+    font-size: 2px;
+}
 
-.maps iframe{
-   
-    
-    
-
+#imgEsc{
+    width: 30%;
+    border-top-left-radius: 1vh;
+    border-top-right-radius:1vh ;
+}
+.divEscritorio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 

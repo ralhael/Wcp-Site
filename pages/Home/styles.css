@@ -41,23 +41,20 @@ main {
 }
 
 .topo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: #ffffff;
-
-
-
-
+    
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
 }
 
 
-.div_imagemEscrevendo {
-    border-radius: 10vh;
 
 
 
-}
+
+
+
 
 #wcpsemfundo {
 
