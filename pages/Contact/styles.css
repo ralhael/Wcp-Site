@@ -18,6 +18,7 @@ body {
     display: flex;
     flex-direction: column;
     background: radial-gradient(circle, rgb(226, 233, 235) 0%, rgb(238, 237, 237) 52%, rgba(237, 247, 255, 1) 100%);
+    
 }
 
 main {
@@ -87,9 +88,9 @@ strong {
     justify-content: center;
     text-align: center;
     margin-top: 5vh;
-    background-color: #232f42;
     width: 100%;
     padding: 13vh 0vh;
+    background-color:    #232f42;;
 }
 
 .title_hero {
@@ -100,39 +101,74 @@ strong {
     gap: 2vh;
 }
 
-.title_hero h1{
+.title_hero h1 {
     font-size: 9vh;
-    color: rgba(223, 215, 215, 0.952);;
+    color: rgba(223, 215, 215, 0.952);
+    ;
 
 }
-.title_hero p{
+
+.title_hero p {
     font-size: 2.5vh;
-    color: #fdfdff91;;
+    color: #fdfdff91;
+    ;
 
 }
+
+.blocoIntermediario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+
 
 .blocoOrganizaQuadrados {
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
-    align-items: center;
     justify-content: center;
-    column-gap: 1vh;
-    width: 100%;
+    justify-items: center;
+    column-gap: 10vh;
     text-align: center;
+
 }
 
 
 .configQuadrados {
-    display: flex;
+    display: flex; 
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: max-content;
+    width: 50%;
+    max-width: max-content;
+    background-color: #d1d1d160;
+    padding: 5vh;
+    border-radius: 1vh;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    z-index: 1;
+    
     
     
 }
 
-.blocoIconQuadrado{
+.configQuadrados h1{
+    color: #232f42;
+}
+.configQuadrados p{
+    color: #232f42;
+}
+
+
+.configQuadrados:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.blocoIconQuadrado {
     padding: 1vh;
     border-radius: 1vh;
     background-color: #c7c5c583;
@@ -141,19 +177,29 @@ strong {
 
 }
 
+.textoQuadradinho{
+   
+ font-size: 1.5vh;
+    
+}
 
-.blocoVideo{
+video{
+    border-radius:1vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.blocoVideo {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 5vh;
-    background-color: #232f42;
     width: 100%;
     margin: 0 auto;
+    
 }
 
-.armazenaTituloVideo{
+.armazenaTituloVideo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -161,35 +207,36 @@ strong {
     gap: 1vh;
 }
 
-.armazenaTituloVideo h1{
+.armazenaTituloVideo h1 {
     font-size: 7vh;
-    color: rgba(223, 215, 215, 0.952);;
-}
-.armazenaTituloVideo p{
-    font-size: 2vh;
-    color: #fdfdff91;
+    color: #232f42;
 }
 
-.blocoMaps{
+.armazenaTituloVideo p {
+    font-size: 2vh;
+    color: #232f42;
+}
+
+.blocoMaps {
     display: flex;
     flex-direction: row;
     width: max-content;
     width: 100%;
     margin: 0 auto;
     align-items: center;
-    justify-content: center; 
-    margin-top: 5vh;   
-    margin-bottom: 5vh;   
-    
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
 }
 
-.blocoEsquerda{
+.blocoEsquerda {
     display: flex;
     flex-direction: column;
-    width:max-content
+    width: max-content
 }
 
-.blocoSupEsquerda{
+.blocoSupEsquerda {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -197,7 +244,7 @@ strong {
     width: 100%
 }
 
-.englobaTextos{
+.englobaTextos {
     width: 50%;
 }
 
@@ -205,12 +252,13 @@ strong {
     font-size: 2px;
 }
 
-#imgEsc{
+#imgEsc {
     width: 30%;
     border-top-left-radius: 1vh;
-    border-top-right-radius:1vh ;
+    border-top-right-radius: 1vh;
 }
-.divEscritorio{
+
+.divEscritorio {
     display: flex;
     align-items: center;
     justify-content: center;
