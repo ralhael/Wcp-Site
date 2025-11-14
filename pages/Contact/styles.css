@@ -25,8 +25,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
-    align-items: center;
-    justify-content: center;
+    
     gap: 3vh;
 
 }
@@ -188,101 +187,38 @@ video{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.blocoVideo {
+.blocoVideo{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    gap: 5vh;
+    align-items: center;
+}
+.divArmazenaEsqDir{
+    display: grid;
     width: 100%;
-    margin: 0 auto;
-    
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+
 }
 
-.armazenaTituloVideo {
-    display: flex;
-    flex-direction: column;
+
+.divVideo{
+    max-width: max-content;
+}
+
+.blocoSupDireita{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
     align-items: center;
     justify-content: center;
-    gap: 1vh;
+    text-align: center;
 }
 
-.armazenaTituloVideo h1 {
-    font-size: 7vh;
-    color: #232f42;
+.mapa{
+    width: 100vh;
+    border-radius: 1vh;
 }
-
-.armazenaTituloVideo p {
-    font-size: 2vh;
-    color: #232f42;
-}
-
-.blocoMaps {
-    display: flex;
-    flex-direction: row;
-    width: max-content;
-    width: 100%;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-
-}
-
-.blocoEsquerda {
-    display: flex;
-    flex-direction: column;
-    width: max-content
-}
-
-.blocoSupEsquerda {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    width: 100%
-}
-
-.englobaTextos {
-    width: 50%;
-}
-
-.englobaTextos p h1 {
-    font-size: 2px;
-}
-
-#imgEsc {
-    width: 30%;
-    border-top-left-radius: 1vh;
-    border-top-right-radius: 1vh;
-}
-
-.divEscritorio {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
