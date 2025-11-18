@@ -43,7 +43,7 @@ main {
 }
 
 .topo {
-    
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -468,7 +468,8 @@ main {
     font-size: 6.5vh;
     color: rgb(223, 218, 218);
     font-family: "Chiron Sung HK", serif;
-    font-weight: 500
+    font-weight: 500;
+    width: 80%;
 }
 
 .div_escolha_esquerda p {
@@ -757,4 +758,30 @@ footer p {
     background: linear-gradient(145deg, #162d63 0%, #102255 100%);
     border-radius: 1vh;
     color: #f0c93d;
+}
+
+
+@media (max-width: 576px) {
+    .paginas {
+        display: none;
+    }
+
+    .conjunto_bloco_sup {
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+    .passoApasso {
+        flex-direction: column;
+
+    }
+
+    .bloco_escolha{
+        flex-direction: column;
+    }
+
+    .div_escolha_esquerda{
+        text-align: center;
+        align-items: center;
+    }
 }
