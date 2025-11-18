@@ -41,11 +41,11 @@ main {
 }
 
 .topo {
-    
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
 }
 
 
@@ -124,8 +124,10 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     gap: 4vh;
     color: white;
+    width: 70%
 }
 
 .divTitultoSubtitulo {
@@ -133,6 +135,7 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     gap: 1vh;
+    align-items: center;
 }
 
 #titulo {
@@ -144,6 +147,7 @@ main {
     color: var(--cor-secundaria);
     font-size: 1.8vh;
     text-shadow: 3px 2px 3px rgb(0, 0, 0);
+    width: 70%;
 
 
 }
@@ -191,12 +195,13 @@ main {
 
 
 .botaoBlocoPrincipal {
-    padding: 1vh 2vh;
+    padding: 1.5vh 4vh;
     border-radius: 1vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 3px;
+
 
 
 }
@@ -296,7 +301,7 @@ main {
     flex-direction: row;
     align-items: center;
 
-    padding: 1vh 6vh;
+    padding: 1.5vh 6vh;
     border-radius: 1vh;
     transition: transform 0.3s ease-in-out, color 0.3s ease-in-out, background-color 0.3s ease-in-out, gap 0.3s ease-in-out;
     background-color: rgb(240, 165, 5);
@@ -350,8 +355,10 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     margin: 0 auto;
     gap: 20vh;
+    width: 100%;
 
 }
 
@@ -452,6 +459,7 @@ main {
     margin-bottom: 2vh;
     margin-top: 4vh;
     text-align: center;
+    width: 50%;
 }
 
 .faleConosco p {
@@ -636,4 +644,93 @@ footer p {
     font-size: 0.8rem;
     margin-bottom: 1vh;
 
+}
+
+
+@media (max-width: 576px) {
+    #imagemEscrevendo {
+        display: none;
+    }
+
+    .bloco_principal{
+        height: 60vh;
+    }
+
+    .bloco_servicos{
+        margin-top: 7vh;
+    }
+
+    #titulo {
+        font-size: 5vh;
+    }
+
+    .divTitultoSubtitulo {
+        text-align: center;
+    }
+
+    .div_botaos_principal {
+        margin-bottom: 1vh;
+    }
+
+    .botaoContato {
+        text-align: center;
+        color: var(--cor-principal);
+    }
+
+    .textoPrincipal {
+        font-size: 1.5vh;
+    }
+
+    #imagemConversando {
+        display: none;
+    }
+
+    .blocos_servicos {
+        flex-direction: column;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .paginas {
+        display: none;
+    }
+
+    .subtituloServicos {
+        text-align: center;
+        width: 90%;
+    }
+
+    .quadrados_servicos {
+        align-items: center;
+    }
+
+    .textoQuadradinhos {
+        text-align: center;
+    }
+
+    .bloco_escolher {
+        flex-direction: column;
+        gap: 4vh;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .bloco_escolher_esquerda{
+        text-align: center;
+        align-items: center;
+    }
+
+    .bloco_esquerda_debaixo{
+        width: 90%;
+    }
+
+    .faleConosco{
+        text-align: center;
+    }
+    .faleConosco h1{
+        width: 100%;
+    }
 }
