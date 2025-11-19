@@ -137,6 +137,7 @@ main {
 .bloco_hero h4 {
     font-size: 1.2rem;
     color: rgba(240, 240, 240, 0.76);
+    width: 60%;
 
 
 }
@@ -491,6 +492,11 @@ main {
     gap: 15px;
 }
 
+.divCheck {
+    height: 100%;
+
+}
+
 .icon_escolha {
     color: #E9B224;
 
@@ -520,6 +526,7 @@ main {
     gap: 5vh;
     align-items: center;
     text-align: center;
+    justify-content: center;
 }
 
 .quadradinhos {
@@ -534,6 +541,7 @@ main {
     border: 1px solid rgb(87, 87, 87);
     color: #E9B224;
     transition: background-color 0.3s ease-in-out;
+
 }
 
 
@@ -761,27 +769,109 @@ footer p {
 }
 
 
+
 @media (max-width: 576px) {
-    .paginas {
-        display: none;
+
+    .topo{
+        padding: 1.5vh;
     }
 
-    .conjunto_bloco_sup {
+    
+
+    .bloco_hero{
+        padding: 5vh 0vh;
+        height: 30vh;
+    }
+
+    .bloco_hero h1 {
+        font-size: 6vh;
+    }
+
+    .bloco_hero h4{
+        font-size: 0.7rem;
+        display: block;
+        width: 100%;
+    }
+
+    .conjunto_bloco_sup{
         flex-direction: column;
         gap: 5vh;
     }
 
-    .passoApasso {
-        flex-direction: column;
-
-    }
-
-    .bloco_escolha{
-        flex-direction: column;
-    }
-
-    .div_escolha_esquerda{
+    .bloco_como_funciona p{
         text-align: center;
+    }
+
+    .bloco_tipos_servicos{
+        justify-content: center;
         align-items: center;
+    }
+
+    .conjunto_bloco_sup{
+        align-items: center;
+    }
+
+    .bloco_um_esquerda,
+    .bloco_um_direita{
+        width: 92%;
+    }
+
+    .topo_quadrados h1{
+        font-size: 2.3vh;
+    }
+
+    .div_conjunto_itens{
+        margin-left: 0;
+        padding: 2vh;
+    }
+
+    .passoApasso{
+       flex-direction: column;
+    }
+
+   .bloco_escolha{
+    flex-direction: column;
+    gap: 10vh;
+   
+   }
+
+   .div_escolha_esquerda{
+    text-align: center;
+    align-items: center;
+   }
+
+   .div_escolha_esquerda h1{
+    font-size: 6vh;
+    width: 100%;
+    gap: 3vh;
+   
+   }
+
+    .div_quadrados{
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        gap: 2vh;
+        justify-content: center;
+    }
+
+    .quadradinhos{
+        width: 100%;
+        height: 16vh;
+    }
+
+    .bloco_solicita h1{
+        font-size: 4vh;
+    }
+    .bloco_solicita p{
+        text-align: center;
+    }
+
+    .footer{
+        padding: 0 2vh;
+        flex-direction: column;
+    }
+
+    .paginas{
+        display: none;
     }
 }
