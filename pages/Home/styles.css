@@ -691,6 +691,7 @@ footer p {
 
     .footer {
         flex-direction: column;
+        padding: 0 2vh;
     }
 
     .paginas {

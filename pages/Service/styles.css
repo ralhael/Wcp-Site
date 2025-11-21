@@ -130,8 +130,6 @@ main {
     font-family: "Chiron Sung HK", serif;
     font-optical-sizing: auto;
 
-
-
 }
 
 .bloco_hero h4 {
@@ -832,7 +830,13 @@ footer p {
    .bloco_escolha{
     flex-direction: column;
     gap: 10vh;
-   
+   }
+
+  
+
+   .bloco_como_funciona h1{
+    text-align: center;
+    font-size: 3rem;
    }
 
    .div_escolha_esquerda{
@@ -841,10 +845,9 @@ footer p {
    }
 
    .div_escolha_esquerda h1{
-    font-size: 6vh;
+    font-size: 2.7rem;
     width: 100%;
     gap: 3vh;
-   
    }
 
     .div_quadrados{
@@ -861,6 +864,7 @@ footer p {
 
     .bloco_solicita h1{
         font-size: 4vh;
+        text-align: center;
     }
     .bloco_solicita p{
         text-align: center;
@@ -873,5 +877,9 @@ footer p {
 
     .paginas{
         display: none;
+    }
+
+    .verificados{
+        align-items: start;
     }
 }
