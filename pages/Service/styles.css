@@ -585,13 +585,18 @@ main {
     gap: 8px;
 }
 
+.div_seta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .link_orcamento {
     color: white;
-
 }
 
 .link_solicitar:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 #setaDireitaSolicita {

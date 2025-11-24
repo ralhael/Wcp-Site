@@ -8,6 +8,12 @@
   font-family: "Montserrat", sans-serif;
 }
 
+/* [data-aos]{
+    transition-property: transform, opacity !important;
+    transition-duration: 1s !important;
+    transition-timing-function: ease !important;
+} */
+
 hr {
   color: rgb(0, 0, 0);
   background-color: rgb(0, 0, 0);
@@ -83,7 +89,7 @@ strong {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10vh 0vh ;
+  padding: 20vh 0vh ;
   text-align: center;
   background-color: #232f42;
   width: 100%;
@@ -144,7 +150,7 @@ strong {
   border-radius: 1vh;
   padding: 2vh;
   color: white;
-  transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out ;
   width: 20vh;
   height: 15vh;
 
@@ -168,14 +174,14 @@ strong {
   padding: 2vh;
   border-radius: 1vh;
   background-color: #0507111a;
-  transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 
 }
 
 .bloco_timeline {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   padding-top: 10vh;
   padding-bottom: 10vh;
