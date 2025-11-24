@@ -379,14 +379,12 @@ footer p {
     }
 
     .paginas {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 1rem;
-        font-size: 0.8rem;
+        display: none;
     }
 
     .bloco_hero {
-        padding: 4rem 1.5rem;
+       flex-direction: column;
+       gap: 1vh;
     }
 
     .title_hero h1 {
@@ -444,31 +442,9 @@ footer p {
         flex-direction: column;
         gap: 3rem;
         padding: 2rem 1.5rem;
-        align-items: center;
+        
     }
 
-    .blocoUm,
-    .blocoDois {
-        align-items: center;
-        text-align: center;
-    }
-
-    .textosBlocoUm {
-        align-items: center;
-    }
-
-    .div_org_encontrar {
-        align-items: center;
-    }
-
-    .blocoLocalizacao {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    #direitosWCP {
-        text-align: center;
-        padding: 1rem;
-    }
+    
 }
 
