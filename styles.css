@@ -56,6 +56,7 @@ main {
 
 #wcpsemfundo {
     width: 18vh;
+    display: grid;
 }
 
 .div_Logo{
@@ -82,6 +83,7 @@ grid-template-columns: 1fr;
     border-bottom: 2px solid transparent;
     transition: border-bottom-color 0.3s ease-in-out;
     text-align: center;
+    white-space: nowrap;
 }
 
 #iconMenu {
@@ -731,9 +733,10 @@ footer p {
     }
 
     .paginas{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         margin-right: 1rem;
         display: none;
+        
     }
 
     .quadrados_servicos {
