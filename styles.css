@@ -41,11 +41,9 @@ main {
 }
 
 .topo {
-
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-
+    justify-content: space-between;
 }
 
 
@@ -57,18 +55,22 @@ main {
 
 
 #wcpsemfundo {
-
     width: 18vh;
+}
 
+.div_Logo{
+display: grid;
+grid-template-columns: 1fr;
 
 }
 
 .paginas {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 4vh;
     font-size: 1.5vh;
     align-items: center;
-    margin-right: 2vh;
+
 
 }
 
@@ -78,7 +80,23 @@ main {
     color: #1e40af;
     padding-bottom: 0.5vh;
     border-bottom: 2px solid transparent;
-    transition: border-bottom-color 0.3s ease-in-out
+    transition: border-bottom-color 0.3s ease-in-out;
+    text-align: center;
+}
+
+#iconMenu {
+   display: none;
+    width: 4vh;
+    height: 4vh;
+    color: #1e40af;
+    cursor: pointer;
+}
+.d-hamburguer{
+    display: grid;
+grid-template-columns: 1fr;
+justify-content: center;
+align-items: center;
+
 }
 
 #paginas_link:hover {
@@ -652,11 +670,11 @@ footer p {
         display: none;
     }
 
-    .bloco_principal{
+    .bloco_principal {
         height: 60vh;
     }
 
-    .bloco_servicos{
+    .bloco_servicos {
         margin-top: 7vh;
     }
 
@@ -694,13 +712,28 @@ footer p {
         padding: 0 2vh;
     }
 
-    .paginas {
-        display: none;
-    }
+  
 
     .subtituloServicos {
         text-align: center;
         width: 90%;
+    }
+
+    #iconMenu{
+        display: block;
+        margin-right: 1rem;
+    }
+
+    .topo {
+        justify-content: center;
+        justify-content: space-between;
+         align-items: center;
+    }
+
+    .paginas{
+        grid-template-columns: 1fr;
+        margin-right: 1rem;
+        display: none;
     }
 
     .quadrados_servicos {
@@ -719,19 +752,20 @@ footer p {
         width: 100%;
     }
 
-    .bloco_escolher_esquerda{
+    .bloco_escolher_esquerda {
         text-align: center;
         align-items: center;
     }
 
-    .bloco_esquerda_debaixo{
+    .bloco_esquerda_debaixo {
         width: 90%;
     }
 
-    .faleConosco{
+    .faleConosco {
         text-align: center;
     }
-    .faleConosco h1{
+
+    .faleConosco h1 {
         width: 100%;
     }
 }

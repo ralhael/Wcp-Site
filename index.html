@@ -14,14 +14,23 @@
 
     <header>
         <section class="topo">
-            <div><img src="../../assets/wcpLinear.png" id="wcpsemfundo"></div>
+            <div class="div_Logo"><img src="../../assets/wcpLinear.png" id="wcpsemfundo"></div>
 
-            <div class="paginas">
+            <i id="iconMenu" data-lucide="menu" onclick="clickMenu()" ></i>
+
+            <menu class="paginas" id="menu_paginas">
                 <a href="index.html" id="paginas_link"> Início </a>
                 <a href="/pages/Service/service.html" id="paginas_link"> Serviços </a>
                 <a href="/pages/about/index.html" id="paginas_link"> Sobre Nós </a>
                 <a href="/pages/Contact/index.html" id="paginas_link"> Contato </a>
-            </div>
+
+            </menu>
+
+            
+
+           
+                
+           
 
         </section>
 
@@ -71,7 +80,7 @@
                 serviços para facilitar sua vida</p>
 
             <div class="blocos_servicos">
-                <div  class="quadrados_servicos">
+                <div class="quadrados_servicos">
                     <div data-aos="fade-in" data-aos-delay="400" class="iconCarro"><i data-lucide="car"></i></div>
                     <h2 data-aos="fade-in" data-aos-delay="600" class="tituloQuadradinhos">Veículos</h2>
                     <p data-aos="fade-in" data-aos-delay="600" class="textoQuadradinhos">Transferência, licenciamento,
@@ -84,13 +93,13 @@
                     <p data-aos="fade-in" data-aos-delay="800" class="textoQuadradinhos">Abertura, alterações
                         contratuais e baixa de empresas</p>
                 </div>
-                <div  class="quadrados_servicos">
+                <div class="quadrados_servicos">
                     <div data-aos="fade-in" data-aos-delay="600" class="iconCarro"><i data-lucide="plane"></i></div>
                     <h2 data-aos="fade-in" data-aos-delay="800" class="tituloQuadradinhos">AeroNaútico</h2>
                     <p data-aos="fade-in" data-aos-delay="800" class="textoQuadradinhos">CNH, RG, CPF e certidões
                         diversas</p>
                 </div>
-                <div  class="quadrados_servicos">
+                <div class="quadrados_servicos">
                     <div data-aos="fade-in" data-aos-delay="400" class="iconCarro"><i data-lucide="building-2"></i>
                     </div>
                     <h2 data-aos="fade-in" data-aos-delay="600" class="tituloQuadradinhos">Imóveis</h2>
@@ -99,7 +108,7 @@
                 </div>
             </div>
 
-            <div  class="botao_servicos_div">
+            <div class="botao_servicos_div">
                 <a id="link_botao_servicos" href="/pages/Service/service.html">Ver todos os Serviços </a>
                 <i class="setadireitaservico" data-lucide="arrow-right"></i>
             </div>
@@ -228,6 +237,7 @@
 
 
     </footer>
+    <script src="menu.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/entrance.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
