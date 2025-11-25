@@ -44,12 +44,17 @@ main {
 
 .topo {
 
-    display: flex;
+   display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 7vh;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    justify-content: space-between;
+}
 
+#iconMenu {
+   display: none;
+    width: 4vh;
+    height: 4vh;
+    color: #1e40af;
+    cursor: pointer;
 }
 
 
@@ -62,11 +67,13 @@ main {
 }
 
 .paginas {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 4vh;
     font-size: 1.5vh;
     align-items: center;
-    margin-right: 2vh;
+
+
 }
 
 #paginas_link {
@@ -75,7 +82,9 @@ main {
     color: #1e40af;
     padding-bottom: 0.5vh;
     border-bottom: 2px solid transparent;
-    transition: border-bottom-color 0.3s ease-in-out
+    transition: border-bottom-color 0.3s ease-in-out;
+    text-align: center;
+    white-space: nowrap;
 }
 
 #paginas_link:hover {

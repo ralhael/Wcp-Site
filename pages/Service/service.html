@@ -10,18 +10,25 @@
 </head>
 
 <body>
-    <header>
-        <section class="topo">
-            <div><img src="../../assets/wcpLinear.png" id="wcpsemfundo"></div>
+    <header  >
+        <section id="id_topo" class="topo">
+            <div class="div_Logo"><img src="../../assets/wcpLinear.png" id="wcpsemfundo"></div>
 
-            <div class="paginas">
-                <a href="/index.html" id="paginas_link"> Início </a>
+            
+
+            <menu class="paginas" id="menu_paginas">
+                <a href="/index.html    " id="paginas_link"> Início </a>
                 <a href="/pages/Service/service.html" id="paginas_link"> Serviços </a>
                 <a href="/pages/about/index.html" id="paginas_link"> Sobre Nós </a>
                 <a href="/pages/Contact/index.html" id="paginas_link"> Contato </a>
-            </div>
+
+            </menu>
+
+            <i id="iconMenu" data-lucide="menu" onclick="clickMenu()" ></i>
+                  
 
         </section>
+
     </header>
 
     <main>
@@ -299,7 +306,7 @@
 
 
 
-
+    <script src="menu.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/entrance.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
